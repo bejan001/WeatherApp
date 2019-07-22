@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="100dp">
+
+            <EditText
+                android:id="@+id/edit_latitude"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:background="@drawable/edittext_bg"
+                android:drawableLeft="@drawable/ic_latitude"
+                android:drawablePadding="10dp"
+                android:drawableTint="@color/inactive"
+                android:ems="10"
+                android:fontFamily="@font/monsterrat"
+                android:hint="@string/edit_latitude"
+                android:inputType="numberSigned|numberDecimal"
+                android:padding="15dp"
+                android:textColor="@color/focused"
+                android:textColorHint="@color/inactive"
+                android:textCursorDrawable="@null" />
+
+            <EditText
+                android:id="@+id/edit_longitude"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:background="@drawable/edittext_bg"
+                android:drawableLeft="@drawable/ic_longitude"
+                android:drawablePadding="10dp"
+                android:drawableTint="@color/inactive"
+                android:ems="10"
+                android:fontFamily="@font/monsterrat"
+                android:hint="@string/edit_longitude"
+                android:inputType="numberSigned|numberDecimal"
+                android:padding="15dp"
+                android:textColor="@color/focused"
+                android:textColorHint="@color/inactive"
+                android:textCursorDrawable="@null" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginLeft="40dp"
+                android:layout_gravity="center">
+
+                <ImageButton
+                    android:id="@+id/button_locate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/monsterrat"
+                    android:src="@drawable/ic_my_location_black_24dp"
+                    android:background="@drawable/mybutton"
+                    android:layout_weight="1"
+                    android:layout_marginRight="20dp"
+                    android:tint="@color/focused"/>
+
+                <Button
+                    android:id="@+id/button_search"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/monsterrat"
+                    android:textColor="@color/focused"
+                    android:background="@drawable/mybutton"
+                    android:layout_weight="2"
+                    android:layout_marginLeft="20dp"
+                    android:text="@string/btn_search" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical"
+        android:layout_marginTop="65dp">
+
+        <TextView
+            android:id="@+id/tv_city"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/monsterrat"
+            android:textColor="@color/inactive"
+            android:textSize="28sp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:text="@string/tv_city"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/tv_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/monsterrat"
+            android:textColor="@color/inactive"
+            android:textSize="26sp"
+            android:text="@string/tv_description"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/tv_temperature"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/monsterrat"
+            android:textColor="@color/inactive"
+            android:textSize="26sp"
+            android:text="@string/tv_temperature"
+            android:visibility="invisible" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

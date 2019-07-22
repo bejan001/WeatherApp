@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WeatherApp</string>
+    <string name="title_city">Város</string>
+    <string name="title_coordinates">Koordináta</string>
+    <string name="edit_latitude">Szélesség</string>
+    <string name="edit_longitude">Hosszúság</string>
+    <string name="select_city">Írj be egy várost</string>
+    <string name="toast_fillboth">Kérlek, töltsd ki a szélesség és a hosszúság mezőket is</string>
+    <string name="tv_temperature">Hőmérséklet</string>
+    <string name="tv_description">Leírás</string>
+    <string name="tv_city">Város</string>
+    <string name="btn_search">Keres</string>
+    <string name="toast_invalid_lat">A szélesség értéknek -90 és +90 között kell lennie</string>
+    <string name="toast_invalid_lng">A hosszúság értéknek -180 és +180 között kell lennie</string>
+    <string name="toast_invalid_values">A megadott értékek hibásak</string>
+    <string name="unknown">Ismeretlen település</string>
+    <string name="hint_city">Város</string>
+</resources>

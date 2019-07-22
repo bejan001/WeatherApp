@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">WeatherApp</string>
+    <string name="title_city">City</string>
+    <string name="title_coordinates">Coordinates</string>
+    <string name="edit_latitude">Latitude</string>
+    <string name="edit_longitude">"Longitude "</string>
+    <string name="btn_search">Search</string>
+    <string name="tv_city">City</string>
+    <string name="tv_description">Description</string>
+    <string name="tv_temperature">Temperature</string>
+    <string name="select_city">Select a city</string>
+    <string name="toast_fillboth">Please fill in the latitude and longitude fields</string>
+    <string name="toast_invalid_lat">Latitude value has to be between -90 and +90</string>
+    <string name="toast_invalid_lng">Longitude value has to be between -180 and +180</string>
+    <string name="toast_invalid_values">Invalid values</string>
+    <string name="unknown">Unknown</string>
+    <string name="hint_city">City</string>
+</resources>
